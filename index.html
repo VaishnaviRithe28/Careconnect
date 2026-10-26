@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ward 74 Viral Care</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><h2>Ward 74</h2><p>Viral treatment facility</p></div>
+      <label class="eyebrow" for="roleSelect">SIGNED IN AS</label>
+      <select id="roleSelect" class="role-select">
+        <option value="admin">Admin</option><option value="nurse">Nurse</option><option value="doctor">Doctor</option>
+      </select>
+      <nav id="navigation"></nav>
+      <div class="sidebar-foot">74 rooms · Data saved on this device</div>
+    </aside>
+    <main class="main-area">
+      <header class="mobile-header">
+        <strong>Ward 74</strong>
+        <select id="mobileRoleSelect" class="role-select">
+          <option value="admin">Admin</option><option value="nurse">Nurse</option><option value="doctor">Doctor</option>
+        </select>
+      </header>
+      <section id="app" class="content"></section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
